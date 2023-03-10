@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+}
+.btn-primary{
+	background-color: #0bb804!important;
+	border: none!important;
+	padding:8px 25px!important;
+}
+.btn-primary:hover{
+	color: #0BB804!important;
+	background-color: #000000!important;
+	padding: 6px 23px!important;
+	border: 2px solid #0BB804!important;
+}
+.btn-secondary{
+	background-color: #000000!important;
+	color: #0bb804!important;
+	border: none!important;
+	padding:8px 25px!important;
+}
+.btn-secondary:hover{
+	color: #000000!important;
+	background-color: #DDDDDD!important;
+	padding: 6px 23px!important;
+	border: 2px solid #000000!important;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar, .container-fluid{
+	background-color: #DDDDDD;
+	padding: 0 !IMPORTANT;
+}
+.navbar-brand img{
+	height: 80px;
+	padding: 5px 0px 0px 20px;
+}
+.nav-link{
+    color: #0bb804 !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+	padding-right: 15px !important;
+    padding-left: 20px !important;
+    font-size: large!important;
+}
+.navlink ul li a, .active::after{
+	content:'';
+	background: #0bb804;
+	height: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.dropdown-toggle:hover{
+	color: #DDDDDD !important;
+	background: #0bb804;
+	border-radius: 8px;
+}
+.home:hover{
+	color: #DDDDDD !important;
+	background: #0bb804;
+	border-radius: 8px;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+	background: #DDDDDD;
+}
+.dropdown-item:hover{
+	color: #DDDDDD !important;
+	background: #0bb804!important;
+	border-radius: 8px;
+}
+.navbar-toggler-icon{
+	color: #0bb804;
+	font-size: 30px;
+}
+.navlink ul li a, .quote{
+	color: #0bb804 !important;
+	background: #000000;
+	border-radius: 8px;
+	font-weight: 600;
+	border: 2px solid #0BB804!important;
+	margin-right: 10px;
+}
+.navlink ul li a, .quote:hover{
+	color: #DDDDDD !important;
+	background: #0bb804;
+	padding-right: 5px;
+}
+
+
+/*==== End of Header ====*/
+
+
+/*========= Banner ========*/
+.banner-background{
+	background: url("Site Images/Gallery Pictures/Headers/Header Pic.png");
+	height: 700px;
+	margin-bottom: 40px;
+	padding-top: 300px;
+}
+.banner-title{
+	padding: 30px;
+    background-color: #000000b3;
+	margin-left: 25%;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom: 8px solid #0bb804;
+}
+.banner-title h1{
+	padding-bottom: 15px;
+	font-size: 6em;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+/*============ About Chip==========*/
+.section-title{
+	color:#444444;
+	background-color: #0bb804b3;
+	text-align: center;
+	padding: 5px 0;
+	margin-bottom: 30px;
+	box-shadow: 0px 10px 20px 0px rgb(11 184 4 /40%);
+}
+.about img{
+	width: 600px;
+}
+.about{
+	padding-bottom: 30px;
+}
+
+/*========== Applications ============*/
+
+#services{
+	margin: 50px 0;
+}
+.services{
+	padding: 20px;
+}
+.services img{
+	padding-top: 20px;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.services h4{
+	padding: 5px 15px;
+	margin-top: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;
+	font-size: 30px;
+}
+.services h4::after{
+	content:'';
+	background: #FFFFFF;
+	height: 6px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.services ul li{
+	text-align: left;
+	padding: 5px 0;
+	font-size: 25px;
+	color: #000000;
+	list-style: none;
+}
+.services i{
+	color: #FFFFFF;
+}
+.service-border{
+	background: rgba(11,184,4,0.75);
+	box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 40%);
+	border: 1px solid #000;
+}
+
+#services .btn{
+	box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 30%);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+/*===== Gallery======*/
+#gallery img{
+	height: 700px;
+}
+.carousel-contents{
+	margin-bottom: 20px;
+}
+.gallery-wrap{
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+
+/*===== Flake Colors======*/
+
+.metallic-wrap h2{
+	margin-bottom: 40px;
+}
+.metallic-wrap h2::before{
+	content:'';
+	background: #0bb804;
+	height: 4px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(48px);
+}
+.metallic-wrap h2::after{
+	content:'';
+	background: #0bb804;
+	height: 10px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	display: block;
+	transform: translateY(3px);
+}
+.metallic-wrap{
+	margin-bottom: 30px;
+}
+.metallic-images{
+	width: 150px;
+}
+
+
+/*===== Why Bulldog======*/
+.benifits{
+	background: url("Site Images/Gallery Pictures/Headers/Footer Pic.png");
+	background-size: cover;
+	width: 100%;
+	box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 30%);
+}
+.benifit-content{
+	color: #FFFFFF;
+	background: rgba(0,0,0,0.75);
+	padding: 20px;
+}
+.benifit-content h2{
+	text-align: center;
+}
+.benifits-title::before{
+	content:'';
+	background: #0bb804;
+	height: 4px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(48px);
+}
+.benifits-title::after{
+	content:'';
+	background: #0bb804;
+	height: 10px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	display: block;
+	transform: translateY(3px);
+}
+.benifit-content ul{
+	list-style: none;
+}
+.benifit-content ul li{
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.benifit-content .btn{
+	margin-left: 100px;
+}
+.benifit-content h3 i{
+	color: #0bb804;
+}
+.benifits{
+	margin-bottom: 30px;
+}
+
+/*==== Start of Footer ====*/
+
+#footer{
+	padding-top: 3%;
+	background: #000000;
+	color: #FFFFFF;
+}
+.footer-logo{
+	width: 300px;
+}
+#footer ul{
+	list-style: none;
+}
+#footer ul a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#footer ul a:hover{
+	border-bottom: 1px solid #0BB804;
+}
+.col-md-3 h4{
+	text-align: center
+}
+.col-md-3 h4::after{
+	content:'';
+	background: #0bb804;
+	height: 4px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.col-md-3 ul li{
+	padding-top: 2px;
+}
+#footer .bi{
+	color: #0bb804;
+}
+#credits{
+	text-align: center;
+	color: #FFFFFF;
+	background: #000000;
+	padding: 10px;
+}
+
+	
+
+
+

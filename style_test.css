@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+}
+.btn-primary{
+	background-color: #0bb804!important;
+	border: none!important;
+	padding:8px 25px!important;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar, .container-fluid{
+	background-color: #DDDDDD;
+	padding: 0 !IMPORTANT;
+}
+.navbar-brand img{
+	height: 80px;
+	padding: 5px 0px 0px 20px;
+}
+.nav-link{
+    color: #0bb804 !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+	padding-right: 15px !important;
+    padding-left: 20px !important;
+    font-size: large!important;
+}
+.navlink ul li a, .active::after{
+	content:'';
+	background: #0bb804;
+	height: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.dropdown-toggle:hover{
+	color: #DDDDDD !important;
+	background: #0bb804;
+	border-radius: 8px;
+}
+.home:hover{
+	color: #DDDDDD !important;
+	background: #0bb804;
+	border-radius: 8px;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+	background: #DDDDDD;
+}
+.dropdown-item:hover{
+	color: #DDDDDD !important;
+	background: #0bb804!important;
+	border-radius: 8px;
+}
+.navbar-toggler-icon{
+	color: #0bb804;
+	font-size: 30px;
+}
+.navlink ul li a, .quote{
+	color: #0bb804 !important;
+	background: #000000;
+	border-radius: 8px;
+	font-weight: 600;
+}
+.navlink ul li a, .quote:hover{
+	color: #DDDDDD !important;
+	background: #0bb804;
+	padding-right: 5px;
+}
+
+/*==== End of Header ====*/
+.banner-background{
+	background: url("Site Images/Gallery Pictures/Headers/Header Pic light.png");
+	height: 700px;
+	margin-bottom: 40px;
+	padding-top: 300px;
+}
+.banner-title{
+	padding: 30px;
+    background-color: #000000b3;
+	margin-left: 25%;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom: 8px solid #0bb804;
+}
+.banner-title h1{
+	padding-bottom: 15px;
+	font-size: 6em;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+/*==== Residential Coatings====*/
+.section-title{
+	color:#444444;
+	background-color: #0bb804b3;
+	text-align: center;
+	padding: 5px 0;
+	margin-bottom: 30px;
+	box-shadow: 0px 10px 20px 0px rgb(11 184 4 /40%);
+}
+.applications{
+	padding-bottom: 60px;
+}
+.application img{
+	height: 550px;
+}
+.application h2{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.application h2:before{
+	content:'';
+	background: #0bb804;
+	height: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 300px;
+	transform: translatey(60px);
+}
+.application h2:after{
+	content:'';
+	background: #0bb804;
+	height: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 200px;
+	transform: translateY(16px);
+}
+
+/*===== Why Bulldog======*/
+.benifits{
+	background: url("Site Images/Gallery Pictures/Headers/Footer Pic.png");
+	background-size: cover;
+	width: 100%;
+	margin-bottom: 30px;
+	box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 30%);
+}
+.benifit-content{
+	color: #FFFFFF;
+	background: rgba(0,0,0,0.75);
+	padding: 20px;
+}
+.benifit-content h2{
+	text-align: center;
+}
+.benifits-title::before{
+	content:'';
+	background: #0bb804;
+	height: 4px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(48px);
+}
+.benifits-title::after{
+	content:'';
+	background: #0bb804;
+	height: 10px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	display: block;
+	transform: translateY(3px);
+}
+.benifit-content ul{
+	list-style: none;
+}
+.benifit-content ul li{
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.benifit-content button{
+	background: #0bb804;
+	margin-left: 100px;
+}
+.benifit-content h3 i{
+	color: #0bb804;
+}
+/*==== Start of Footer ====*/
+
+#footer{
+	margin-top: 30px;
+	padding-top: 3%;
+	background: #000000;
+	color: #FFFFFF;
+}
+.footer-logo{
+	width: 300px;
+}
+#footer ul{
+	list-style: none;
+}
+.col-md-3 h4{
+	text-align: center
+}
+.col-md-3 h4::after{
+	content:'';
+	background: #0bb804;
+	height: 4px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.col-md-3 ul li{
+	padding-top: 2px;
+}
+#footer .bi{
+	color: #0bb804;
+}
+#credits{
+	text-align: center;
+	color: #FFFFFF;
+	background: #000000;
+	padding: 10px;
+}
+
+	
+
+
+
