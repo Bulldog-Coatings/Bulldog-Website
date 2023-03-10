@@ -247,87 +247,78 @@ body {
 }
 
 
-/*===== Why Bulldog======*/
-.benifits{
-	background: url("Site Images/Gallery Pictures/Headers/Footer Pic.png");
+/*================= Why Bulldog ===================*/
+
+
+.why-us-content {
+	background: url("Site Images/Gallery Pictures/Headers/Footer Pic Alt.png");
 	background-size: cover;
 	width: 100%;
 	box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 30%);
 }
-.benifit-content{
+.why-us{
 	color: #FFFFFF;
 	background: rgba(0,0,0,0.75);
 	padding: 20px;
 }
-.benifit-content h2{
+.why-us h2{
 	text-align: center;
 }
-.benifits-title::before{
-	content:'';
-	background: #0bb804;
-	height: 4px;
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
+.why-us h2::after{
+	content: url("Site Images/1x/Asset 17.png");
+	align-content: center;
 	display: block;
-	transform: translateY(48px);
+	transform: translateY(-12px);
 }
-.benifits-title::after{
-	content:'';
-	background: #0bb804;
-	height: 10px;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	display: block;
-	transform: translateY(3px);
-}
-.benifit-content ul{
+.why-us ul{
 	list-style: none;
 }
-.benifit-content ul li{
+.why-us ul li{
 	padding-left: 20px;
 	padding-bottom: 20px;
 }
-#why-us .btn{
+.why-us .btn-primary{
 	margin-left: 100px;
 }
-.benifit-content h3 i{
+.why-us h3 i{
 	color: #0bb804;
 }
-.benifits{
+#why-us{
 	margin-bottom: 30px;
 }
 
-/*==== Start of Footer ====*/
+
+/*================ Start of Footer =====================*/
+
 
 #footer{
 	padding-top: 3%;
 	background: #000000;
 	color: #FFFFFF;
 }
-.footer-logo{
-	width: 300px;
+.footer-info img{
+	max-width: 300px;
+	max-height: 80px;
 }
-#footer ul{
+.footer-info ul{
 	list-style: none;
 }
-#footer ul a{
+.footer-info ul a{
 	color: #FFFFFF;
 	text-decoration: none;
 }
-#footer ul a:hover{
+.footer-info ul a:hover{
 	border-bottom: 1px solid #0BB804;
 }
-.col-md-3 h4{
+.footer-info h4{
 	text-align: center
 }
-.col-md-3 h4::after{
+.footer-info h4::after{
 	content:'';
 	background: #0bb804;
 	height: 4px;
-	width: 200px;
+	max-width: 200px;
+	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -335,17 +326,17 @@ body {
 .col-md-3 ul li{
 	padding-top: 2px;
 }
-#footer .bi{
+.footer-info .bi{
 	color: #0bb804;
 }
+
+
 #credits{
 	text-align: center;
 	color: #FFFFFF;
 	background: #000000;
 	padding: 10px;
 }
-
-	
 
 
 

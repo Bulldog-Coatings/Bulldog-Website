@@ -1,11 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
+
+/*============== Global ==================*/
+
+
 *{
 	margin: 0;
 	padding: 0;
 }
 body {
+	max-width: 100%;
 }
+img{
+	width: 100%;
+	height: 100%;
+}
+.btn-primary{
+	background-color: #0bb804!important;
+	border: none!important;
+	padding:8px 25px!important;
+}
+.btn-primary:hover{
+	color: #0BB804!important;
+	background-color: #000000!important;
+	padding: 6px 23px!important;
+	border: 2px solid #0BB804!important;
+}
+.section-title{
+	color:#444444;
+	background-color: #0bb804b3;
+	text-align: center;
+	padding: 5px 0;
+	margin-bottom: 30px;
+	box-shadow: 0px 10px 20px 0px rgb(11 184 4 /40%);
+}
+
+/*============== Nav Bar ==================*/
 
 #nav-bar{
 	position: sticky;
@@ -17,7 +47,7 @@ body {
 	padding: 0 !IMPORTANT;
 }
 .navbar-brand img{
-	height: 80px;
+	max-width: 325px;
 	padding: 5px 0px 0px 20px;
 }
 .nav-link{
@@ -41,11 +71,6 @@ body {
 	background: #0bb804;
 	border-radius: 8px;
 }
-.home:hover{
-	color: #DDDDDD !important;
-	background: #0bb804;
-	border-radius: 8px;
-}
 .dropdown:hover .dropdown-menu{
 	display: block;
 	background: #DDDDDD;
@@ -59,153 +84,150 @@ body {
 	color: #0bb804;
 	font-size: 30px;
 }
+.home:hover{
+	color: #DDDDDD !important;
+	background: #0bb804!important;
+	border-radius: 8px;
+}
 .navlink ul li a, .quote{
 	color: #0bb804 !important;
 	background: #000000;
 	border-radius: 8px;
 	font-weight: 600;
+	border: 2px solid #0BB804!important;
+	margin-right: 10px;
 }
 .navlink ul li a, .quote:hover{
 	color: #DDDDDD !important;
 	background: #0bb804;
-	padding-right: 5px;
 }
 
-/*==== End of Header ====*/
-#banner{
-	background: url("Site Images/1x/Asset 7.png")!important;
-	height: 600px;
-	background-size: contain;
-	margin-bottom: 40px
+
+/*======================== Banner ==============================*/
+
+
+.banner-background{
+	background: url("Site Images/Gallery Pictures/Headers/Header Pic light.png");
+	height: 700px;
+	margin-bottom: 40px;
+	padding-top: 300px;
 }
-.banner-title h1 {
-    font-size: 5em;
-    font-weight: 500;
-    color: #fff!important;
-    padding: 30px 0 30px 100px;
-    top: 340px;
-    position: relative;
+.banner-title{
+	padding: 30px;
     background-color: #000000b3;
-    left: 8%;
+	margin-left: 25%;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom: 8px solid #0bb804;
 }
-.banner-logo{
-	width: 200px;
+.banner-title h1{
+	padding-bottom: 15px;
+	font-size: 6em;
+    font-weight: 500;
+    color: #FFFFFF;
 }
 
-/*==== Commercial Coatings====*/
 
-.section-title{
-	color:#444444;
-	background-color: #0bb804b3;
-	text-align: center;
-	padding: 5px 0;
+/*==================================== Commercial Coatings====================================*/
+
+
+#commercial img{
+	max-width: 700px;
+	max-height: 500px;
+	padding: 30px 0;
+}
+.applications-content{
+	background: #EEEEEE;
 	margin-bottom: 30px;
-	box-shadow: 0px 10px 20px 0px rgb(11 184 4 /40%);
-}
-.applications{
-	padding-bottom: 60px;
-}
-.application img{
-	height: 550px;
+	border-radius: 10px;
 }
 .application h2{
-	text-align: center;
-	padding-bottom: 10px;
+	color: #0BB804;
+	padding-left: 10px;
+	padding-top: 20px;
 }
-.application h2:before{
-	content:'';
-	background: #0bb804;
-	height: 4px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	width: 300px;
-	transform: translatey(60px);
+.application p{
+	padding-left: 20px;
+	padding-top: 10px;
 }
-.application h2:after{
-	content:'';
-	background: #0bb804;
-	height: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	width: 200px;
-	transform: translateY(16px);
+.application .btn-primary{
+	margin-left: 20px;
+	margin-top: 10px;
 }
 
-/*===== Why Bulldog======*/
-.benifits{
-	background: url("Site Images/1x/Asset 7.png");
+
+/*============================ Why Bulldog================================*/
+
+
+.why-us-content {
+	background: url("Site Images/Gallery Pictures/Headers/Footer Pic Alt.png");
 	background-size: cover;
 	width: 100%;
-	margin-bottom: 30px;
 	box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 30%);
 }
-.benifit-content{
+.why-us{
 	color: #FFFFFF;
 	background: rgba(0,0,0,0.75);
 	padding: 20px;
 }
-.benifit-content h2{
+.why-us h2{
 	text-align: center;
 }
-.benifits-title::before{
-	content:'';
-	background: #0bb804;
-	height: 4px;
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
+.why-us h2::after{
+	content: url("Site Images/1x/Asset 17.png");
+	align-content: center;
 	display: block;
-	transform: translateY(48px);
+	transform: translateY(-12px);
 }
-.benifits-title::after{
-	content:'';
-	background: #0bb804;
-	height: 10px;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	display: block;
-	transform: translateY(3px);
-}
-.benifit-content ul{
+.why-us ul{
 	list-style: none;
 }
-.benifit-content ul li{
+.why-us ul li{
 	padding-left: 20px;
 	padding-bottom: 20px;
 }
-.benifit-content button{
-	background: #0bb804;
+.why-us .btn-primary{
 	margin-left: 100px;
 }
-.benifit-content h3 i{
+.why-us h3 i{
 	color: #0bb804;
 }
-/*==== Start of Footer ====*/
+#why-us{
+	margin-bottom: 30px;
+}
+
+
+/*======================================== Start of Footer =====================================*/
+
 
 #footer{
-	margin-top: 20px;
 	padding-top: 3%;
 	background: #000000;
 	color: #FFFFFF;
 }
-.footer-logo{
-	width: 300px;
+.footer-info img{
+	max-width: 300px;
+	max-height: 80px;
 }
-#footer ul{
+.footer-info ul{
 	list-style: none;
 }
-.col-md-3 h4{
+.footer-info ul a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer-info ul a:hover{
+	border-bottom: 1px solid #0BB804;
+}
+.footer-info h4{
 	text-align: center
 }
-.col-md-3 h4::after{
+.footer-info h4::after{
 	content:'';
 	background: #0bb804;
 	height: 4px;
-	width: 200px;
+	max-width: 200px;
+	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -213,9 +235,11 @@ body {
 .col-md-3 ul li{
 	padding-top: 2px;
 }
-#footer .bi{
+.footer-info .bi{
 	color: #0bb804;
 }
+
+
 #credits{
 	text-align: center;
 	color: #FFFFFF;
@@ -224,5 +248,6 @@ body {
 }
 
 	
+
 
 
