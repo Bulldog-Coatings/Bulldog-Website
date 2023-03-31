@@ -133,7 +133,7 @@ img{
 
 #commercial img{
 	max-width: 700px;
-	max-height: 500px;
+	max-height: 550px;
 	padding: 30px 0;
 }
 .applications-content{
@@ -207,7 +207,7 @@ img{
 	background: #000000D9;
 	box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 40%);
 	border: 1px solid #000;
-	margin: 60px;
+	margin: 10%;
 }
 
 /*======================================== Start of Footer =====================================*/
